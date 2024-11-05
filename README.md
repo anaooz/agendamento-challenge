@@ -1,3 +1,13 @@
+## Como criar a pipeline:
+
+1. No seu projeto do Azure DevOps, vá até Pipelines e selecione New Pipeline.
+2. Clique em Use the classic editor na parte inferior da tela.
+3. Escolha o repositório onde seu código está hospedado e clique em Continue.
+4. No campo de templates, selecione Maven.
+5. Faça as configurações necessárias para a aplicação (como versão do JDK, sistema opercaional, pasta do .jar etc.)
+6. Clique em Save & Queue.
+7. Acompanhe o progresso para verificar se a aplicação compila, executa testes e faz deploy corretamente no Azure.
+
 ## JSONs:
 
 `GET` /usuario
